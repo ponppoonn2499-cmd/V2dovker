@@ -1,14 +1,12 @@
 {
   "inbounds": [{
     "port": 80,
-    "protocol": "vless",
+    "protocol": "vmess",
     "settings": {
       "clients": [{
         "id": "5558eb96-daea-492a-8709-6da1dabf621e",
-        "level": 0,
-        "email": "ais@vpn.com"
-      }],
-      "decryption": "none"
+        "alterId": 0
+      }]
     },
     "streamSettings": {
       "network": "ws",
